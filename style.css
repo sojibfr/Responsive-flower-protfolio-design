@@ -664,3 +664,76 @@ footer{
     }
 
 }
+/* SEVEN PART - FOOTER */ 
+ @media screen and (max-width:576px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .st p{
+        /* border: 1px solid black; */
+        margin-left: 0px;
+        width: 400px;
+        margin-top: 10px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .fr img{
+        margin-top: 30px;
+        margin-left: 18px;
+    }
+    .plant-section-bottom{
+    gap: 0px;
+    margin-bottom: 120px;
+    }
+    .bloom-plants{
+        margin-left: 10px;
+    }
+    .bloom-plants-img img{
+        border-radius: 10px;
+
+    }
+    .bloom-plants-description a{
+        font-size: 8px;
+    }
+
+    .bloom-plants-description h2{
+        font-size: 10px;
+        color: white;
+    }
+     .ana-plants-img{
+        margin-left: 10px;
+     }
+     .ana-plants-img img{
+        border-radius: 10px;
+         margin-top: -15px;
+     }
+     .ana-plants-description{
+        top: 10%;
+     }
+     .ana-plants-description h2{
+        font-size: 10px;
+     }
+     .ana-plants-description a{
+        font-size: 8px;
+     }
+     .zabo-plants{
+        margin: 0 10px;
+     }
+     .zabo-plants img{
+        border-radius: 10px;
+        height: 100%;
+        margin-top: 2px;
+     }
+     .zabo-plants-description{
+        left: 2%;
+     }
+     .zabo-plants-description h2{
+        font-size: 20px;
+     }
+     .zabo-plants-description a{
+        font-size: 13px;
+        border-bottom: 2px solid white;
+     }
+ }
