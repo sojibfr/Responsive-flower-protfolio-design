@@ -1,0 +1,666 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-main {
+  font-family: "Noto Serif", serif;
+  /* font-optical-sizing: auto; */
+  font-weight: bold;
+  font-size: 70px;
+  /* font-style: normal; */
+  /* font-variation-settings:
+    "wdth" 100; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-sub-main {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  /* font-optical-sizing: auto; */
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+}
+
+
+/* Shared Style */
+.regular-color{
+    color: black;
+}
+.secondary-color{
+    color: rgba(137, 135, 161, 1);
+}
+.colorful{
+    color: rgba(233, 90, 8, 1);
+}
+/* shared style closed */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; }
+
+.first{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top:  30px; ;
+    /* padding: 15px 30px; */
+    /* background-color: #f8f8f8;  */
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+}
+.navbar .logo img {
+    width: 200px; 
+    height: 100px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    color: black;
+
+}
+
+.navbar .nav-links li {
+    margin-right: 25px; 
+    
+}
+.navbar-small{
+    display: flex;
+    gap: 60px;
+}
+
+.navbar .nav-links a,
+.navbar .cart a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .cart {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 0px;
+    /* font-weight: 0px; */
+    /* font-size: 5p; */
+}
+.navbar .cart img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* PART 2 */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    /* border: 1px solid black; */
+    height: 561px;
+}
+.banner-text{
+    margin-top: 162px;
+} 
+.banner-description{
+    padding-top: 60px;
+    font-size: 30px;
+}
+.banner img{
+    max-width: 670px;
+    max-height: 455px;
+    margin-top: 106px;
+    /* border: 1px solid black; */
+}
+
+
+/* PART THREE STYLE START */
+.three{
+    margin-bottom: 50px;
+}
+.plant-text{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 90px;
+}
+.plant-text p{
+    padding: 0 200px;
+    padding-top: 0px;
+    font-size: 28px;
+}
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 18px;
+    margin-top: 50px;
+}
+.plant img{
+    width: 100%;
+}
+.plant p,h4{
+    text-align: center;
+    font-size: 25px;
+    /* padding-top: 30px; */
+}
+
+.under p{
+    padding-top: 30px;
+}
+/* .plant p{
+    padding-top: 0px;
+} */
+.plant button{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* PART THREE STYLE END */
+
+
+/* PART FOUR STYLE START */
+.plants_lover{
+    display: flex;
+    gap: 20px;
+    margin-top: 200px;
+}
+.plants_image{
+    position: relative;
+}
+.plant_image_main img{
+    width: 600px;
+}
+.plants_conrner_image{
+    position: absolute;
+    top: -12%;
+    left: 80%;
+}
+.plants_image_description{
+    margin-left: 70px;
+}
+.plants_image_description li{
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.plants_conrner_image img{
+    height: 200px;
+}
+
+/* PART FOUR STYLE END */
+
+
+/* PART FIVE STYLE START ( -- LATEST DEALS -- ) */
+
+.latest-section-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.latest-section-title p{
+    padding-top: -10px;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 150px;
+}
+
+/* IMAGE */
+
+.plant-section-bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+
+.plant-section-left{
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.bloom-plants{
+    /* border: 1px solid black; */
+    border-radius: 10px ;
+    position: relative;
+
+}
+.bloom-plants-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: brightness(0.5); 
+
+}
+.bloom-plants-description{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    
+}
+.bloom-plants-description a{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloom-plants-description h2{
+    font-size: 25px;
+    color: white;
+}
+.bloom-plants-description a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+
+}
+
+
+.ana-plants{
+    /* border: 1px solid black; */
+    position: relative;
+}
+.ana-plants-description {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+}
+.ana-plants-description a{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ana-plants-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: brightness(0.5); 
+
+}
+.ana-plants-description h2{
+    font-size: 25px;
+    color: white;
+}
+.ana-plants-description a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+.zabo-plants{
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    position: relative;
+    width: 75%;
+    margin-left: 25px;
+}
+.zabo-plants-description{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.zabo-plants-description h2{
+    padding-left: 50px;
+    color: white;
+    font-size: 50px;
+    padding-right: 0px;
+}
+.zabo-plants-description a{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    text-decoration: none;
+    border-bottom: 5px solid white;
+}
+
+.zabo-plants-img img{
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 515px;
+    border-radius: 30px;
+    filter: brightness(0.5); 
+
+}
+
+.zabo-plants-description a{
+    color: white;
+}
+
+/* PART FIVE END - WITHOUT COMPLETE */
+
+/* PART SIX START */
+
+section{
+    position: relative;
+
+}
+
+.join-img img{
+    width: 100%;
+    height: auto;
+}
+.join-h h1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: 60px;
+
+}
+.join-input-button{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    
+}
+
+.join-input-button input{
+    height: 60px;
+    width: 800px;
+    border: none;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.join-input-button button{
+    height: 62px;
+    width: 200px;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+/* PART SIX END */
+
+/* PART SEVEN - FOOTER - START */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px ;
+    margin-bottom: 500px;
+}
+.st img{
+    height: 100px;
+}
+.st p{
+    font-size: 25px;
+}
+.nd{
+    display: flex;
+    flex-direction: column;
+}
+.nd a{
+    text-decoration: none;
+    padding-top: 25px;
+}
+.rd{
+    display: flex;
+    flex-direction: column;
+}
+.rd a{
+    text-decoration: none;
+    padding-top: 25px;
+}
+.fr img{
+    margin-left: 30px;
+    margin-top: 10px;
+    /* display: flex; */
+
+}
+
+
+
+/* Responsive */
+
+ @media screen and (max-width:576px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+} 
+
+/* Nav responsive */
+@media screen and (max-width: 576px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    .navbar .nav-links {
+        display: none; 
+    }
+    .navbar .cart {
+        display: flex; 
+    }
+
+    .navbar .cart a {
+        font-size: 15px; 
+    }
+}
+
+/* second part */
+@media screen and (max-width: 576px) {
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        height: 100%;
+        margin-top: 0px;
+    }
+    .banner-text{
+        margin-top: 0%;
+        padding-left: 15px;
+    }
+    .banner-title{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .banner-description{
+        font-size: 22px;
+        padding-top: 30px;
+
+    }
+}
+/* THIRD PART */
+@media screen and (max-width:576px) {
+    
+    .plant-text h1{
+        font-size: 30px;
+        padding-top: 70px;
+    }
+    .plant-text p{
+        padding: 0 50px;
+        padding-top: 30px;
+        font-size: 20px;
+        /* margin-top: 0px; */
+    }
+    .plant-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 10px;
+        margin-top: 50px;
+    }
+     .under p{
+        padding-top: 30px;
+        margin-bottom: 3px;
+     }
+    .under h4{
+        margin-top: 0px;
+    }
+    .under button{
+        margin-top: 40px;
+    }
+
+
+}
+
+
+/* FOUR PART */
+
+@media screen and (max-width:576px) {
+    .plants_lover{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 0px;
+    }
+    .plant_image_main img{
+        width: 100%;
+    }
+    .plants_image_description{
+        /* border: 1px solid black; */
+        margin-left: 0px;
+    }
+    .plants_image_description h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .plants_image_description li{
+        margin-left: 0px;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+        list-style-type: circle;
+    }
+    .plants_conrner_image {
+        display: none;
+    }
+}
+
+
+/* FIFTH PART ( -- LATEST DEALS-- ) */
+@media screen and (max-width:576px) {
+    .latest-section-title h1{
+        font-size: 40px;
+        padding-top: 90px;
+    }
+    .latest-section-title p{
+        font-size: 20px ;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .plant-section-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .plant-section-left .bloom-plants-img img{
+        border-radius: 20px;
+        width: 500px;
+    }
+    .bloom-plants .bloom-plants-description h2{
+        width: 500px;
+        padding-left: 80px;
+        font-size: 24px;
+    }
+    .bloom-plants .bloom-plants-description a{
+        margin-left: -30px;
+        font-size: 20px;
+        padding-top: 50px;
+        border-bottom: 2px solid white;
+    }
+    .ana-plants .ana-plants-description h2{
+        width: 500px;
+        padding-left: 80px;
+        font-size: 24px;
+        margin-top: 60px;
+    }
+    .ana-plants .ana-plants-description a{
+        top: 150%;
+        left: 43%;
+        font-size: 20px;
+        border-bottom: 2px solid white;
+    }
+    .plant-section-left .ana-plants-img img{
+        border-radius: 0px;
+        width: 500px;
+        margin-top: 4px;
+    }
+    .plant-section-bottom .zabo-plants img{
+        width: 500px;
+        margin-top: 20px;
+        border-radius: 30px ;
+    }
+    .plant-section-bottom .zabo-plants-description h2{
+
+        padding-left: 100px;
+        padding-right: -10px;
+        font-size: 24px;
+        padding-top: 30px
+    }
+    .plant-section-bottom .zabo-plants-description a{
+        top: 170%;
+        left: 65%;
+        font-size: 20px;
+        border-bottom: 2px solid white;
+    }
+}
+
+/* SIX PART */
+@media screen and (max-width: 576px){
+    .part_six{
+        margin-top: -50px;
+    }
+    .join-img img{
+        width: 100%;
+        height: 380px;
+    }
+    .join-h h1{
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        color: white;
+        font-size: 30px;
+    }
+    .join-input-button{
+        position: absolute;
+        top: 55%;
+        left: 12%;
+    }
+    .join-input-button input{
+        height: 60px;
+        width: 300px; 
+        border: none;
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    .join-input-button button{
+        height: 62px;
+        width: 100px;
+        background-color: rgba(233, 90, 8, 1);
+        border: none;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
